@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# infinity-linux
-A lightweight Arch Linux-based distribution focused on speed, flexibility, compatibility, and ease of installation.
-=======
 # Infinity Linux
 
 <h2><b>Infinity Linux</b> is a lightweight Arch Linux-based distribution focused on <b>speed, flexibility, compatibility, and ease of installation.</b></h2><br />
@@ -27,16 +23,17 @@ A lightweight Arch Linux-based distribution focused on speed, flexibility, compa
 - Large software selection included in the live environment
 
 ## Repository Layout
-etc/            System configuration
-usr/            Wallpapers, icons, launchers, branding
-grub/           GRUB bootloader configuration
-syslinux/       BIOS bootloader configuration
-efiboot/        UEFI bootloader configuration
-opt/ezrepo/     Local package repository
-packages.x86_64 Package list
-profiledef.sh   ArchISO profile configuration
-steps.sh        Automated build script
-Requirements
+etc/            System configuration<br />
+usr/            Wallpapers, icons, launchers, branding<br />
+grub/           GRUB bootloader configuration<br />
+syslinux/       BIOS bootloader configuration<br />
+efiboot/        UEFI bootloader configuration<br />
+opt/ezrepo/     Local package repository<br />
+packages.x86_64 Package list<br />
+profiledef.sh   ArchISO profile configuration<br />
+steps.sh        Automated build script<br />
+
+# Requirements
 
 ### Build host:
 
