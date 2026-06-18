@@ -23,15 +23,15 @@
 - Large software selection included in the live environment
 
 ## Repository Layout
-- etc/            System configuration<br />
+- etc/    ---        System configuration<br />
 - usr/   ---         Wallpapers, icons, launchers, branding<br />
-- grub/           GRUB bootloader configuration<br />
-- syslinux/       BIOS bootloader configuration<br />
-- efiboot/        UEFI bootloader configuration<br />
-- opt/ezrepo/     Local package repository<br />
-- packages.x86_64 Package list<br />
-- profiledef.sh   ArchISO profile configuration<br />
-- steps.sh        Automated build script<br />
+- grub/   ---        GRUB bootloader configuration<br />
+- syslinux/   ---    BIOS bootloader configuration<br />
+- efiboot/    ---    UEFI bootloader configuration<br />
+- opt/ezrepo/   ---  Local package repository<br />
+- packages.x86_64 --- Package list<br />
+- profiledef.sh  --- ArchISO profile configuration<br />
+- steps.sh     ---   Automated build script<br />
 
 # Requirements
 
