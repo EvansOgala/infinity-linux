@@ -1,0 +1,15 @@
+[Added Associations]
+text/plain=kate-2.desktop;kate.desktop;
+text/vnd.trolltech.linguist=org.kde.kate.desktop;
+text/x-shellscript=org.kde.kate.desktop;
+
+[Default Applications]
+text/html=google-chrome.desktop
+text/plain=kate-2.desktop;
+text/vnd.trolltech.linguist=org.kde.kate.desktop;
+text/x-shellscript=org.kde.kate.desktop;
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/discord=legcord.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
