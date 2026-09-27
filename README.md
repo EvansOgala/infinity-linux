@@ -1,8 +1,11 @@
 <<<<<<< HEAD
 # Infinity Linux
 
+[![Download infinity-linux](https://img.shields.io/sourceforge/dt/infinity-linux.svg)](https://sourceforge.net/projects/infinity-linux/files/latest/download)
+
 <h2><b>Infinity Linux</b> is a lightweight Arch Linux-based distribution built for <b>performance, freedom, and control.</b></h2><br />
 <h3>The future is open.</h3>
+[![Download infinity-linux](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/infinity-linux/files/latest/download)
 
 <h4> Features: </h4>
 - KDE Plasma desktop environment
