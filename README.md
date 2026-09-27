@@ -1,6 +1,14 @@
 <<<<<<< HEAD
 # Infinity Linux
 
+<!-- Begin  Tag -->
+<div class="sf-root" data-id="4105717" data-badge="oss-rising-star-black" data-metadata="achievement=oss-rising-star" style="width:125px">
+    <a href="https://sourceforge.net/projects/infinity-linux/" target="_blank">infinity-linux</a>
+</div>
+<script>(function () {var sc=document.createElement('script');sc.async=true;sc.src='https://b.sf-syn.com/badge_js?sf_id=4105717';var p=document.getElementsByTagName('script')[0];p.parentNode.insertBefore(sc, p);})();
+</script>
+<!-- End  Tag -->
+
 [![Download infinity-linux](https://img.shields.io/sourceforge/dt/infinity-linux.svg)](https://sourceforge.net/projects/infinity-linux/files/latest/download)
 
 <h2><b>Infinity Linux</b> is a lightweight Arch Linux-based distribution built for <b>performance, freedom, and control.</b></h2><br />
