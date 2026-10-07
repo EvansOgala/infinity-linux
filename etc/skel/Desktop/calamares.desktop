@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[en_NG]=
+Comment=Infinity Linux Welcome/Setup
+Exec=/usr/share/infinity/Scripts/autostart.sh
+GenericName[en_NG]=
+GenericName=
+Icon=/usr/share/infinity/infinity.png
+MimeType=
+Name[en_NG]=Welcome to Infinity Linux!
+Name=Welcome to Infinity Linux!
+OnlyShowIn=KDE;
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-KDE-AutostartScript=false
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -52,7 +52,7 @@ sleep 2
 
 # Requirements and preparation
 prepreqs () {
-pacman -S --needed --noconfirm archiso mkinitcpio-archiso
+pacman -S --needed --noconfirm archiso mkinitcpio-archiso --overwrite \*
 }
 
 # Copy ezreleng to working directory
@@ -113,6 +113,8 @@ cp pacman.conf ./ezreleng/
 cp profiledef.sh ./ezreleng/
 cp packages.x86_64 ./ezreleng/
 cp -r grub/ ./ezreleng/
+cp .automated_script.sh ./ezreleng/airootfs/root
+cp calamares.desktop ./ezreleng/airootfs/root
 cp -r efiboot/ ./ezreleng/
 cp -r syslinux/ ./ezreleng/
 cp -r etc/ ./ezreleng/airootfs/
@@ -215,10 +217,10 @@ rmezrepo
 
 # Disclaimer:
 #
-# THIS SOFTWARE IS PROVIDED BY EV2-COOL “AS IS” AND ANY EXPRESS OR IMPLIED
+# THIS SOFTWARE IS PROVIDED BY EZNIX “AS IS” AND ANY EXPRESS OR IMPLIED
 # WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
 # MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
-# EVENT SHALL EV2-COOL BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+# EVENT SHALL EZNIX BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
 # EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
 # PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
 # BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER

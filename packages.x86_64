@@ -5,7 +5,7 @@
 alsa-utils
 amd-ucode
 apparmor
-app-hub-git
+app-hub
 arch-install-scripts
 archinstall
 audit
@@ -23,7 +23,7 @@ darkhttpd
 ddrescue
 dhcpcd
 diffutils
-disk-health-monitor-git
+disk-health-monitor
 dmidecode
 dmraid
 dnsmasq
@@ -504,7 +504,6 @@ luajit
 figlet
 glslang
 jq
-cronie
 gtk4
 zenity
 bc
@@ -516,9 +515,6 @@ kitty
 pavucontrol
 playerctl
 mpvpaper
-aylurs-gtk-shell-git
-grimblast-git
-c-lolcat
 lib32-spirv-tools
 lib32-vulkan-icd-loader
 #infinity-branding
@@ -526,14 +522,15 @@ lib32-vulkan-icd-loader
 #infinity-defaults
 #infinity-wallpapers
 infinity-kde
+infinity-tools
 
 #infinity
-file-explorer-git
-linux-ops-center-git
-mini-os-helper-git
-ops-console-git
-python-browser-git
-weather-dashboard-git
+file-explorer
+linux-ops-center
+mini-os-helper
+ops-console
+python-browser
+weather-dashboard
 plasma-welcome
 plasma
 plasma-bigscreen

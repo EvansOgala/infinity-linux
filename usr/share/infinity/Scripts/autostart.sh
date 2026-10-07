@@ -1,4 +1,18 @@
 #!/bin/bash
-xdg-user-dirs-update --force
-kstart plasma-welcome
-sudo calamares -d
+
+MARKER="$HOME/.config/infinity/.firstboot_done"
+
+if [ ! -f "$MARKER" ]; then
+    mkdir -p "$(dirname "$MARKER")"
+
+    xdg-user-dirs-update --force
+     if [ "$USER" = "live" ]; then
+        sudo calamares -d &
+     fi
+
+    if command -v plasma-welcome >/dev/null; then
+        plasma-welcome &
+    fi
+
+    touch "$MARKER"
+fi

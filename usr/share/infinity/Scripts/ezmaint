@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# infinity maintenance
-# Revision: 2605-1 -- by ev2-cool (https://sourceforge.net/projects/infinity-linux/)
+# ezarcher maintenance
+# Revision: 2605-1 -- by eznix (https://sourceforge.net/projects/ezarch/)
 # (GNU/General Public License version 3.0)
 
 # ---------------------------------------
@@ -16,17 +16,17 @@ handlerror () {
 
 welcomer () {
   clear
-  echo "========================================================="
-  echo "=                                                       ="
-  echo "=     Infinity Maintenance Script                       ="
-  echo "=                                                       ="
-  echo "=                                                       ="
-  echo "=     Revision: 2605-1                                  ="
-  echo "=                                                       ="
-  echo "=     Brought to you by ev2-cool                        ="
-  echo "=     https://sourceforge.net/projects/infinty-linux/   ="
-  echo "=                                                       ="
-  echo -e "====================================================== \n"
+  echo "==================================================="
+  echo "=                                                 ="
+  echo "=     Ezarcher Maintenance Script                 ="
+  echo "=                                                 ="
+  echo "=                                                 ="
+  echo "=     Revision: 2605-1                            ="
+  echo "=                                                 ="
+  echo "=     Brought to you by eznix                     ="
+  echo "=     https://sourceforge.net/projects/ezarch/    ="
+  echo "=                                                 ="
+  echo -e "=================================================== \n"
   sleep 4
 }
 
@@ -119,7 +119,7 @@ mainmenu () { while true
 do
   clear
   echo "-------------------------------------"
-  echo " Infinity Maintenance Script"
+  echo " Ezarcher Maintenance Script"
   echo "-------------------------------------"
   echo ""
   echo "  1) Run system update"
@@ -166,10 +166,10 @@ mainmenu
 done
 
 # Disclaimer:
-# THIS SOFTWARE IS PROVIDED BY EV2_COOL “AS IS” AND ANY EXPRESS OR IMPLIED
+# THIS SOFTWARE IS PROVIDED BY EZNIX “AS IS” AND ANY EXPRESS OR IMPLIED
 # WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
 # MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
-# EVENT SHALL EV2_COOL BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+# EVENT SHALL EZNIX BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
 # EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
 # PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
 # BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER
