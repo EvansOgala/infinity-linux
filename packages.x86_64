@@ -515,11 +515,6 @@ kitty
 pavucontrol
 playerctl
 mpvpaper
-<<<<<<< HEAD
-=======
-grimblast-git
-c-lolcat
->>>>>>> a8ebcc97c4b7a2599c27eb24a831e334593e13d9
 lib32-spirv-tools
 lib32-vulkan-icd-loader
 #infinity-branding
@@ -534,8 +529,6 @@ file-explorer
 linux-ops-center
 mini-os-helper
 ops-console
-python-browser
 weather-dashboard
 plasma-welcome
 plasma
-plasma-bigscreen
