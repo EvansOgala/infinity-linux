@@ -9,5 +9,5 @@ chsh -s /bin/fish live
 cp /root/calamares.desktop /home/live/Desktop/calamares.desktop
 chown -R live:live /home/live/Desktop/calamares.desktop
 chmod +x /home/live/Desktop/calamares.desktop
-plymouth-set-default-theme -R arch-slider-and-glow
+plymouth-set-default-theme -R infinity
 

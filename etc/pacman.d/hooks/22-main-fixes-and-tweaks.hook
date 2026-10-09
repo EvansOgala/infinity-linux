@@ -1,0 +1,12 @@
+# remove from airootfs!
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = base
+
+[Action]
+Description = Fixing up some stuff...
+When = PostTransaction
+Depends = calamares
+Exec = /usr/bin/mkdir /home/live/Desktop && /usr/bin/cp /root/calamares.desktop /home/live/Desktop/calamares.desktop && /usr/bin/chown -R live:live /home/live/Desktop/calamares.desktop && /usr/bin/chmod +x /home/live/Desktop/calamares.desktop

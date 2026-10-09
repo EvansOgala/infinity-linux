@@ -2,7 +2,7 @@
 
 # Revision: 2026.9
 # (GNU/General Public License version 3.0)
-# by ev2-cool (https://sourceforge.net/projects/infinity-linux/)
+# by eznix
 
 # ----------------------------------------
 # Define Variables
@@ -114,14 +114,16 @@ cp profiledef.sh ./ezreleng/
 cp packages.x86_64 ./ezreleng/
 cp -r grub/ ./ezreleng/
 cp .automated_script.sh ./ezreleng/airootfs/root
+cp customize_airootfs.sh ./ezreleng/airootfs/root
 cp calamares.desktop ./ezreleng/airootfs/root
+chmod +x ./ezreleng/airootfs/root/calamares.desktop
 cp -r efiboot/ ./ezreleng/
 cp -r syslinux/ ./ezreleng/
 cp -r etc/ ./ezreleng/airootfs/
 cp -r opt/ ./ezreleng/airootfs/
 cp -r usr/ ./ezreleng/airootfs/
 mkdir -p ./ezreleng/airootfs/etc/skel
-ln -sf /usr/share/infinity ./ezreleng/airootfs/etc/skel/infinity-tools
+ln -sf /usr/share/infinity ./ezreleng/airootfs/etc/skel/ezarcher
 }
 
 # Set hostname
