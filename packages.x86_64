@@ -428,7 +428,7 @@ meld
 okular
 oxygen
 packagekit
-papirus-icon-theme
+#papirus-icon-theme
 pavucontrol-qt
 phonon-qt6-vlc
 plasma-browser-integration
@@ -531,4 +531,4 @@ mini-os-helper
 ops-console
 weather-dashboard
 plasma-welcome
-plasma
+#plasma
