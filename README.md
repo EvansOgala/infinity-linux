@@ -18,15 +18,15 @@
 - Large software selection included in the live environment
 
 ## Repository Layout
-- etc/            System configuration
-- usr/            Wallpapers, icons, launchers, branding
-- grub/           GRUB bootloader configuration
-- syslinux/       BIOS bootloader configuration
-- efiboot/        UEFI bootloader configuration
-- opt/ezrepo/     Local package repository
-- packages.x86_64 Package list
-- profiledef.sh   ArchISO profile configuration
-- steps.sh        Automated build script
+- etc/            (System configuration, branding config)
+- usr/            (Wallpapers, icons, launchers, branding)
+- grub/           (GRUB bootloader configuration)
+- syslinux/       (BIOS bootloader configuration)
+- efiboot/        (UEFI bootloader configuration(systemd-boot))
+- opt/ezrepo/     (Local package repository)
+- packages.x86_64 (Package list)
+- profiledef.sh   (ArchISO profile configuration)
+- steps.sh        (Automated build script)
 
 ## Requirements
 
@@ -97,4 +97,3 @@ See LICENSE file for details.
 <b>Current status:</b>
 
 **Stable release.**
->>>>>>> 2fe81a8 (Stable Infinity Linux release)
