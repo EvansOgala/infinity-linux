@@ -18,23 +18,22 @@
 - Large software selection included in the live environment
 
 ## Repository Layout
-etc/            System configuration
-usr/            Wallpapers, icons, launchers, branding
-grub/           GRUB bootloader configuration
-syslinux/       BIOS bootloader configuration
-efiboot/        UEFI bootloader configuration
-opt/ezrepo/     Local package repository
-packages.x86_64 Package list
-profiledef.sh   ArchISO profile configuration
-steps.sh        Automated build script
-Requirements
+- etc/            System configuration
+- usr/            Wallpapers, icons, launchers, branding
+- grub/           GRUB bootloader configuration
+- syslinux/       BIOS bootloader configuration
+- efiboot/        UEFI bootloader configuration
+- opt/ezrepo/     Local package repository
+- packages.x86_64 Package list
+- profiledef.sh   ArchISO profile configuration
+- steps.sh        Automated build script
+
+## Requirements
 
 ### Build host:
 
 - Arch Linux
 - Root access
-- archiso
-- mkinitcpio-archiso
 
 ### Required packages:
 ```bash
@@ -68,18 +67,14 @@ out/
 <b>Default desktop:</b>
 
 - KDE Plasma
-- GNOME (quarterly release, it's best u use Plasma instead)
 
 <b>Display manager:</b>
 
 - SDDM
-- GDM (for GNOME)
 
 ### Kernel
 
-<b>Infinity Linux uses:</b>
-
-- linux
+<b>Infinity Linux uses the normal Arch kernel.</b>
 
 A specialized infinity linux kernel is coming soon.
 
