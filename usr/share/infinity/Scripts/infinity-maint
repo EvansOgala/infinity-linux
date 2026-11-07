@@ -18,7 +18,7 @@ welcomer () {
   clear
   echo "==================================================="
   echo "=                                                 ="
-  echo "=     Ezarcher Maintenance Script                 ="
+  echo "=     Infinity Maintenance Script                 ="
   echo "=                                                 ="
   echo "=                                                 ="
   echo "=     Revision: 2605-1                            ="

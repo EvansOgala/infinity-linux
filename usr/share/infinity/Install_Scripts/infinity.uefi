@@ -33,7 +33,7 @@ welcome () {
   clear
   echo "==================================================="
   echo "=                                                 ="
-  echo "=     Welcome to the Ezarch Installer Script      ="
+  echo "=     Welcome to the Infinity Installer Script    ="
   echo "=                                                 ="
   echo "=     UEFI Edition                                ="
   echo "=     Revision: 2605-1                            ="
@@ -687,9 +687,9 @@ done
 main_menu () { while true
 do
   clear
-  echo "-------------------------------------"
-  echo " EZ Arch Installer - UEFI Systems"
-  echo "-------------------------------------"
+  echo "----------------------------------------"
+  echo " Infinity Linux Installer - UEFI Systems"
+  echo "----------------------------------------"
   echo ""
   echo "  1) Username, Passwords, & Hostname"
   echo "  2) Choose Device Type & Partition Drive"

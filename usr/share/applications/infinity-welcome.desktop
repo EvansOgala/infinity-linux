@@ -1,7 +1,18 @@
 [Desktop Entry]
-Type=Application
-Name=Infinity Welcome
-Exec=infinity-welcome
-Icon=infinity
 Categories=System;
+Comment=
+Comment=
+Exec=infinity-welcome
+GenericName=
+GenericName=
+Icon=infinity
+MimeType=
+Name=Infinity Welcome
+Name=Infinity Welcome
+Path=
 StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

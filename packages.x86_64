@@ -406,7 +406,7 @@ dolphin
 fastfetch
 flatpak-kcm
 geany
-gnumeric
+#gnumeric
 guvcview
 gwenview
 k3b
@@ -422,7 +422,6 @@ kwallet-pam
 kwalletmanager
 kwayland-integration
 kwin
-kwin-x11
 libvlc
 meld
 okular
@@ -432,7 +431,7 @@ packagekit
 pavucontrol-qt
 phonon-qt6-vlc
 plasma-browser-integration
-plasma-desktop
+plasma-meta
 plasma-disks
 plasma-nm
 plasma-pa
@@ -521,8 +520,10 @@ lib32-vulkan-icd-loader
 #infinity-calamares
 #infinity-defaults
 #infinity-wallpapers
-infinity-kde
+#infinity-kde
 infinity-tools
+sddm-kcm
+flatpak-kcm
 
 #infinity
 file-explorer

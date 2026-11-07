@@ -6,6 +6,7 @@ if [ ! -f "$MARKER" ]; then
     mkdir -p "$(dirname "$MARKER")"
 
     xdg-user-dirs-update --force
+    plasma-apply-wallpaperimage /usr/share/wallpapers/default.jpg
      if [ "$USER" = "live" ]; then
         sudo calamares -d &
      fi

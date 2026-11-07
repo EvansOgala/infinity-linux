@@ -45,7 +45,7 @@ Presentation
             color: "#051531"
             Image {
                 id: slide01
-                source: "slide01.png"
+                source: "slide1.png"
                 fillMode: Image.PreserveAspectFit
                 anchors.fill: parent
             }
@@ -60,7 +60,7 @@ Presentation
             color: "#051531"
             Image {
                 id: slide02
-                source: "slide02.png"
+                source: "slide2.png"
                 fillMode: Image.PreserveAspectFit
                 anchors.fill: parent
             }
@@ -75,7 +75,7 @@ Presentation
             color: "#051531"
             Image {
                 id: slide03
-                source: "slide03.png"
+                source: "slide3.png"
                 fillMode: Image.PreserveAspectFit
                 anchors.fill: parent
             }
@@ -90,13 +90,55 @@ Presentation
             color: "#051531"
             Image {
                 id: slide04
-                source: "slide04.png"
+                source: "slide4.png"
                 fillMode: Image.PreserveAspectFit
                 anchors.fill: parent
             }
         }
     }
 
+    Slide {
+           anchors.fill: parent
+        Rectangle {
+            anchors.fill: parent
+            border.width: 0
+            color: "#051531"
+            Image {
+                id: slide05
+                source: "slide5.png"
+                fillMode: Image.PreserveAspectFit
+                anchors.fill: parent
+            }
+        }
+    }
+    Slide {
+           anchors.fill: parent
+        Rectangle {
+            anchors.fill: parent
+            border.width: 0
+            color: "#051531"
+            Image {
+                id: slide06
+                source: "slide6.png"
+                fillMode: Image.PreserveAspectFit
+                anchors.fill: parent
+            }
+        }
+    }
+    Slide {
+           anchors.fill: parent
+        Rectangle {
+            anchors.fill: parent
+            border.width: 0
+            color: "#051531"
+            Image {
+                id: slide07
+                source: "slide7.png"
+                fillMode: Image.PreserveAspectFit
+                anchors.fill: parent
+            }
+        }
+    }
     function onActivate() {
         console.log("QML Component (default slideshow) activated");
         presentation.currentSlide = 0;
@@ -106,4 +148,3 @@ Presentation
         console.log("QML Component (default slideshow) deactivated");
     }
 }
-
