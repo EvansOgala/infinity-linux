@@ -7,7 +7,7 @@
 
 [![Download infinity-linux](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/infinity-linux/files/latest/download)
 
-<h4> Features: </h4>
+## Features
 - KDE Plasma desktop environment
 - Calamares installer
 - NetworkManager networking
