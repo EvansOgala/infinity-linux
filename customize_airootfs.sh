@@ -23,7 +23,7 @@ EOF
 systemctl enable sddm.service
 
 # --- SilentSDDM Aesthetic Customization ---
-USER_CONF="/usr/share/sddm/themes/silent/theme.conf.user"
+USER_CONF="/usr/share/sddm/themes/silent/theme.conf"
 
 cat <<EOF > "$USER_CONF"
 [General]
@@ -37,10 +37,10 @@ layout_style="Center"
 background_type="image"
 
 # Path to the default background image inside the ISO filesystem
-background_path="/usr/share/backgrounds/plasma-default.jpg"
+background_path="/usr/share/backgrounds/default.jpg"
 
 # Custom greeting text
-greeting_text="Welcome to your Custom Arch ISO"
+greeting_text="Welcome to Infinity Linux!"
 EOF
 
 
