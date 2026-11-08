@@ -483,6 +483,8 @@ yaml-cpp
 calamares
 ckbcomp
 mkinitcpio-openswap
+qt6-imageformats
+qt6-multimedia
 
 # AUR
 downgrade
