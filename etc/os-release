@@ -1,4 +1,4 @@
-NAME="Infinity Linux 2026.11.1"
+NAME="Infinity Linux 2026.11.3"
 PRETTY_NAME="Infinity Linux"
 ID=arch
 BUILD_ID=rolling
@@ -6,5 +6,5 @@ ANSI_COLOR="38;2;23;147;209"
 HOME_URL="https://evansogala.github.io/infinity-linux-web"
 SUPPORT_URL="https://github.com/EvansOgala"
 BUG_REPORT_URL="https://github.com/EvansOgala"
-IMAGE_ID=void
-IMAGE_VERSION=2026.11.1
+IMAGE_ID=eminence
+IMAGE_VERSION=2026.11.3

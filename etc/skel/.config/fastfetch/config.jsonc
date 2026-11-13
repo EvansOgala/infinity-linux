@@ -107,18 +107,6 @@
       "type": "custom",
       "format": "{#1}│",
     },
-    {
-      "type": "custom",
-      "format": "{#1}│ `archeclipse` to update ArchEclipse",
-    },
-    {
-      "type": "custom",
-      "format": "{#1}│ `wallpapers` to install default wallpapers",
-    },
-    {
-      "type": "custom",
-      "format": "{#1}│ `quickspeed` to test connection",
-    },
     // Colors
     {
       "type": "colors",
