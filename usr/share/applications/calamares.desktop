@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Install Infinity Linux
+Icon=/usr/share/infinity/infinity.png
+Exec=/usr/share/infinity/Scripts/autostart.sh
+Terminal=false
+X-KDE-AutostartScript=false
+OnlyShowIn=KDE;

@@ -7,6 +7,11 @@ if [ ! -f "$MARKER" ]; then
 
     xdg-user-dirs-update --force
     plasma-apply-wallpaperimage /usr/share/wallpapers/default.jpg
+
+     if [ "$USER" != "live" ]; then
+        rm -v ~/Desktop/calamares2.desktop /usr/share/applications/calamares.desktop &
+     fi
+
      if [ "$USER" = "live" ]; then
         sudo calamares -d &
      fi
