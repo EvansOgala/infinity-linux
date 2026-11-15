@@ -9,7 +9,7 @@ if [ ! -f "$MARKER" ]; then
     plasma-apply-wallpaperimage /usr/share/wallpapers/default.jpg
 
      if [ "$USER" != "live" ]; then
-        rm -v ~/Desktop/calamares2.desktop /usr/share/applications/calamares.desktop &
+        rm -v ~/Desktop/calamares2.desktop /usr/share/applications/calamares2.desktop &
      fi
 
      if [ "$USER" = "live" ]; then
